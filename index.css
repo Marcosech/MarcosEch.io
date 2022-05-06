@@ -1,0 +1,62 @@
+ /* Variabes */  
+ 
+ 
+ 
+ /* Mixin's */  
+ @mixin transition {
+ -webkit-transition: all 0.5s ease-in-out;
+ -moz-transition: all 0.5s ease-in-out;
+ transition: all 0.5s ease-in-out;
+ }
+ @mixin corners ($radius) {
+ -moz-border-radius:radius;
+ -webkit-border-radius: radius;
+ border-radius: radius; 
+ -khtml-border-radius:radius; 
+ }
+ 
+ body {
+ background: url(Time.jpeg) 
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+ height:100%;
+ }
+ 
+ .wrapper {
+ width: 800px;
+ margin: 30px auto;
+ color:rgb(7, 233, 26);
+ text-align:center;
+
+ }
+ 
+ h1, h2, h3 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif'
+   font-weight: 100;
+   font-size: 2.4em;
+  border-style: solid double dotted  dotted;
+  border-color: red green blue;
+  border-width: 8px;
+ }
+ 
+ #seconds, #tens{
+   font: size 100px;
+ }
+ 
+ button{
+ background:blueviolet ;
+ color:rgb(198, 36, 141);
+ border: dotted 9px rgb(206, 117, 117);
+ text-decoration::first-letter;
+ cursor: s-resize
+ font: 4em;
+ padding: 25px 50px;
+ width: 180px;
+ margin: 100px;
+  outline: dotted;
+  cursor: pointer;
+     background:rgb(196, 10, 10);
+     border: dotted 12px rgb(151, 170, 12);
+     color:aquamarine;
+   
+     }
+ 
